@@ -1,0 +1,51 @@
+.fade {
+
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: all 800ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.products:hover {
+	box-shadow: 3px 3px 0 lightgrey;
+}
+
+.icons {
+	margin-right: 10px;
+
+}
+
+.white {
+	color: white;
+}
+
+.white:hover { 
+	text-decoration: none; 
+	color: lightgrey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color-grey {
+  background-color: lightgrey;
+}
+
+.padding {
+  margin-bottom: 1em !important;
+}
